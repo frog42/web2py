@@ -12,7 +12,7 @@ Stylus  <br />
 -Rupture  <br />
 
 
-Here are the commands you'll need to run:
+# Here are the commands you'll need to run:
 
 //create virtual box new vm with “bridged” network that “allows all” with ubuntu server.  don’t install aptitude.  <br />
 //use testbed:testbed as the username:password (or change the relevant portions of my scripts.  <br />
@@ -28,13 +28,13 @@ ifconfig
 //this means you can copy/paste instead of typing everything out.  <br />
 ssh testbed@X.X.X.X  <br />
 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.1/install.sh | bash  <br />
-source .bashrc
-source .profile
-nvm install stable
-npm install stylus -g
-npm install coffee-script -g
-npm install jeet -g
-npm install jade -g
-npm install rupture -g
+source .bashrc  <br />
+source .profile  <br />
+nvm install stable  <br />
+npm install stylus -g  <br />
+npm install coffee-script -g  <br />
+npm install jeet -g  <br />
+npm install jade -g  <br />
+npm install rupture -g <br />
 npm install axis -g
 
