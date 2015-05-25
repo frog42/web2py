@@ -1,3 +1,5 @@
+#Need to change "your_password" twice below for mysql
+
 echo "This script will:
 1) install all modules need to run web2py on Ubuntu 14.04
 2) install web2py in /var/www/
@@ -43,6 +45,9 @@ apt-get -y install python-matplotlib
 apt-get -y install python-reportlab
 apt-get -y install mercurial
 sudo apt-get -y install git
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password your_password'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password your_password'
+sudo apt-get -y install mysql-server
 /etc/init.d/postgresql restart
 
 # optional, uncomment for emacs
