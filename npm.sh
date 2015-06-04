@@ -6,3 +6,4 @@ npm install jeet -g
 npm install jade -g
 npm install rupture -g
 npm install axis -g
+npm install bower -g
